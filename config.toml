@@ -1,0 +1,63 @@
+baseURL = "https://ales.rocks"
+languageCode = "en-us"
+title = "Aleš Rocks"
+theme = "identity"
+themeDir = "../.."
+
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+
+[params]
+# Site icons
+favicon_ico = "favicon.ico"
+favicon_ico_sizes = "16x16 32x32"
+appleicon = "apple.png"
+
+# Personal data
+[params.personal]
+# If name is not set, author is used
+name = "Aleš Najmann"
+# Avatars can be written to images/avatars/
+avatar = "ales.png"
+position = "Full-stack software engineer @ [Omio](https://omio.com)"
+livesIn = "Prague, Czechia"
+scope = [
+	"Typescript, Javascript, React, a11y",
+	"Go, Java",
+	"Docker, Kubernetes",
+	"Couchbase, Redshift, PostgreSQL",
+	"Redash, Tableau"
+]
+biography = """
+Software craftsman, plumber, data analyst, and expendable economist.<br>This and there OSS contributor."""
+
+[params.contact]
+email = "ales.najmann@gmail.com"
+enable = false
+title = "Stay in touch!"
+namePlaceholder = "Name"
+emailPlaceholder = "Email"
+messagePlaceholder = "Message"
+buttonText = "Send it"
+success = "Thank you texting me."
+error = "Message could not be send. Please contact us at "
+
+# Footer settings
+[params.footer]
+# If copyright is not set, author is used
+copyright = "Aleš Najmann"
+
+# Page license
+[params.license]
+link = "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+name = "CC-BY-SA-4.0"
+
+[params.GTM]
+id = "GTM-5J3SBC5"
+
+# Credits
+[[params.credits]]
+# Title is used as URL text
+title = "Hugo"
+# Text will be used to explain the credit
+text = "Created with"
+link = "https://gohugo.io"
