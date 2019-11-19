@@ -22,7 +22,7 @@ position = "Full-stack software engineer @ [Omio](https://omio.com)"
 livesIn = "Prague, Czechia"
 scope = [
 	"Typescript, Javascript, React, a11y",
-	"Go, Java",
+	"Java, Go",
 	"Docker, Kubernetes",
 	"Couchbase, Redshift, PostgreSQL",
 	"Redash, Tableau"
@@ -31,15 +31,33 @@ biography = """
 Software craftsman, plumber, data analyst, and expendable economist.<br>This and there OSS contributor."""
 
 [params.contact]
-email = "ales.najmann@gmail.com"
-enable = false
-title = "Stay in touch!"
+email = "ales.najmann+memo@gmail.com"
+title = "Send me a memo!"
 namePlaceholder = "Name"
 emailPlaceholder = "Email"
 messagePlaceholder = "Message"
 buttonText = "Send it"
 success = "Thank you texting me."
 error = "Message could not be send. Please contact us at "
+
+[[params.social]]
+title = "Linkedin"
+icon = "fa-linkedin"
+link = "https://www.linkedin.com/in/alesnajmann"
+target = "_blank"
+
+[[params.social]]
+title = "Github"
+icon = "fa-github"
+link = "https://github.com/littleli"
+target = "_blank"
+
+[[params.social]]
+title = "Github"
+icon = "fa-stack-exchange"
+link = "https://stackexchange.com/users/140565/littleli"
+target = "_blank"
+
 
 # Footer settings
 [params.footer]
