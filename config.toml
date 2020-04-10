@@ -21,10 +21,11 @@ avatar = "ales.png"
 position = "Full-stack software engineer @ [Omio](https://omio.com)"
 livesIn = "Prague, Czechia"
 scope = [
-	"Typescript, Javascript, React, a11y",
+	"Typescript, Javascript, React, Web Accessibility",
 	"Java, Go",
 	"Docker, Kubernetes",
-	"Couchbase, Redshift, PostgreSQL",
+	"Couchbase, Redshift, BigQuery, PostgreSQL",
+	"Airflow",
 	"Redash, Tableau"
 ]
 biography = """
